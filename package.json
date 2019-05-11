@@ -1,0 +1,23 @@
+{
+  "name": "nuxtdemo",
+  "version": "1.0.0",
+  "description": "My transcendent Nuxt.js project",
+  "author": "Your Name",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "nuxt": "^2.4.0",
+    "v-distpicker": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
